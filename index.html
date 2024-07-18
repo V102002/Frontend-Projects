@@ -2,18 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
-  <h1>Frontend Mentor Projects</h1>
-  <ul>
-    <li><a href="./3-column-preview-card-component-main/index.html">3-Column-Preview-Card</a></li>
-    <li><a href="./article-preview-component-master/index.html">Article-Preview-Component</a></li>
-    <li><a href="./Base-Apparel-Coming-Soon/index.html">Base-Apparel-Coming-Soon</a></li>
-    <li><a href="./Blog-Preview/index.html">Blog-Preview</a></li>
-    <li><a href="./FAQ-Accordion-Card/index.html">FAQ-Accordion-Card</a></li>
-    <!-- Add more projects as needed -->
-  </ul>
+  <main>
+        <!-- Rating state start -->
+    <div class="container">
+      <div class="star">
+        <img src="./images/icon-star.svg" alt="star">
+      </div>
+      <h1 style="color: white;">How did we do?</h1>
+      <p id="info" style="color: grey;">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <div class="nums">
+        <div class="rating">
+          <p>1</p> 
+        </div>
+        <div class="rating">
+          <p>2</p> 
+        </div>
+        <div class="rating">
+          <p>3</p> 
+        </div>
+        <div class="rating">
+          <p>4</p> 
+        </div>
+        <div class="rating">
+          <p>5</p>
+        </div>
+      </div>
+      <button>SUBMIT</button>
+    </div>
+
+
+
+
+    
+
+    
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <div class="container2">
+      <div>
+          <img src="./images/illustration-thank-you.svg" alt="">
+      </div>
+      <p id="dialog" style="color: hsl(25, 97%, 53%);">
+        You selected <span id="select"> i </span>out of 5
+      </p>
+
+      <h2 style="color: white;">Thank you!</h2>
+  
+      <p id="para">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+    </div>
+
+    <!-- Thank you state end -->
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/V102002">Vinayak S Nair</a>.
+    </div>
+  </main>
+  <script src="./script.js"></script>
 </body>
 </html>
