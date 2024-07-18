@@ -1,0 +1,199 @@
+.attribution { font-size: 11px; text-align: center; position: absolute; bottom: 100px; right: 750px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 59%;
+    position: relative;
+    right: -340px;
+    top: -45px;
+    box-shadow: 0px 30px 90px rgb(119, 119, 119);
+    border-radius: 20px 0px 0px 20px;
+}
+.drawers{
+    width: 85%;
+    height: 105%;
+    border-radius: 20px 0px 0px 20px;
+}
+.info{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 120%;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+.About{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -37px;
+}
+#pfp{
+    width: 11%;
+    height: 50%;
+    border-radius: 100px;
+}
+#date{
+    position: relative;
+    top: -20px;
+}
+.name{
+    position: relative;
+    top: -15px;
+    left: -70px;
+    font-size: 12px;
+}
+h1{
+    font-family: "Manrope", sans-serif;
+    position: relative;
+    bottom: -20px;
+    color: hsl(217, 19%, 35%);
+    font-size: 31px;
+    width: 105%;
+}
+h2{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+}
+button{
+    height: 30px;
+    width: 30px;
+    border-radius: 80px;
+    border: none;
+    position: relative;
+    right: -90px;
+    bottom: -10px;
+}
+p{
+    width: 95%;
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+button.reverse{
+    background-color: hsl(217, 19%, 35%);
+    fill: white;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 35px;
+    border-radius: 15px;
+    width: 15rem;
+    position: relative;
+    top: -12rem;
+    right: -20.8rem;
+    background-color: hsl(217, 19%, 35%);
+    height: 30%;
+    opacity: 0;
+    pointer-events: none;
+}
+.socials::before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: hsl(217, 19%, 35%);
+    bottom: -10px;
+    left: 47%;
+    transform: translateX(-50%) rotate(45deg);
+}
+.socials>img{
+    width: 30px;
+}
+.socials>h3{
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+}
+.socials.after{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media(max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 10%;
+        margin-left: 50px;
+        height: 45rem;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .drawers{
+        width: 165%;
+        height: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .info{
+        height: 17.5rem;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1{
+        position: relative;
+        left: -20px;
+        width: 112%;
+        font-size: 21px;
+    }
+    p{
+        position: relative;
+        left: -20px;
+        width: 111%;
+    }
+    .About{
+        position: relative;
+        bottom: -0px;
+    }
+    #pfp{
+        width: 50px;
+    }
+    .name{
+        position: relative;
+        left: 0.5rem;
+    }
+    h2{
+        position: relative;
+        left: -20px;
+    }
+    .socials{
+        display: flex;
+        justify-content: start;
+        position: relative;
+        left: -3rem;
+        top: -6.9rem;
+        width: 116%;
+        border-radius: 0px 0px 15px 15px;
+    }
+    .socials::before{
+        position: absolute;
+        content: "";
+        height: 0px;
+        width: 0px;
+    }
+    .socials.after{
+        opacity: 1;
+        pointer-events: none;
+    }
+    button.reverse{
+        z-index: 3;
+        background-color: hsl(210, 46%, 95%);
+    }
+}
