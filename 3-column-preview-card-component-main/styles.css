@@ -1,0 +1,122 @@
+.attribution { font-size: 11px; position:absolute;bottom: -90px;right: 750px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 990px;
+    margin: 300px 200px 300px 200px;
+    position:absolute;
+    right: 150px;
+    top: -50px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 45px 0px 49px;
+    height: 500px;
+    align-items: start;
+}
+
+.card:nth-child(1) {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .card:nth-child(2) {
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .card:nth-child(3) {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+  }
+
+
+img{
+    position: absolute;
+    top: 50px;
+}
+h1{
+    position: absolute;
+    top: 100px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+p{
+    font-family: "Lexend Deca", sans-serif;
+    position: relative;
+    bottom: -15px;
+    font-weight: 400;
+    color: hsl(0, 0%, 85%);
+}
+.btn{
+    background-color:hsla(0, 0%, 100%, 1) ;
+    position: relative;
+    bottom: -80px;
+    right: 0px;
+    padding: 15px 38px 15px 38px ;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: larger;
+}
+#one{
+    color: hsl(31, 77%, 52%);
+}
+#two{
+    color: hsl(184, 100%, 22%);
+}
+#three{
+    color: hsl(179, 100%, 13%);
+}
+
+@media(max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -750px;
+        height: auto;
+    }
+    .card{
+        position: relative;
+        right: -270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 50px;
+        width: 255px;
+        height: 380px;
+        align-items: start;
+    }
+    .card:nth-child(1) {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 10px 10px 0px 0px;
+    }
+    .card:nth-child(3) {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 0px 10px 10px;
+    }
+    .btn{
+        position: relative;
+        left: 0px;
+    }
+    p{
+        position: relative;
+        bottom: -50px;
+    }
+        
+}
