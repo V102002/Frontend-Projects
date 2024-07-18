@@ -123,3 +123,18 @@ button:hover{
     width:15.3rem;
     color: grey;
 }
+@media(max-width:500px){
+    .container,.container2{
+        position: relative;
+        left: 20px;
+        width: 80%;
+    }
+    #dialog{
+        position: relative;
+        right: -30px;
+    }
+    #para{
+        position: relative;
+        right: -30px;
+    }
+}
