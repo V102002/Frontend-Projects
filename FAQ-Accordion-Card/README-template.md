@@ -24,8 +24,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here]((https://www.frontendmentor.io/solutions/second-js-challenge--faq-accordian-card-ii-c-IAeHlXI1)
+- Live Site URL: [Here](https://v102002.github.io/Frontend-Projects/FAQ-Accordion-Card/index.html)
 
 ## My process
 
@@ -36,8 +36,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - Flexbox
 - CSS Grid
 - JavaScript
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
