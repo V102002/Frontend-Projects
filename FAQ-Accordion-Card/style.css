@@ -1,0 +1,152 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background: linear-gradient(to top, hsl(240, 73%, 65%),hsl(273, 75%, 66%));
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.container{
+    position: relative;
+    right: -70px;
+    bottom: 200px;
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 58%;
+    margin: 150px 200px 0px 200px;
+    border-radius: 32px;
+    box-shadow: 0px 15px 50px 1px black;
+    overflow: hidden;
+    height: 450px;
+}
+.Image{
+    position: absolute;
+    left: -90px;
+    top: 90px;
+}
+#woman{
+    position: absolute;
+    width: 500px;
+}
+#box{
+    z-index: 3;
+    position: relative;
+    left: 177px;
+    bottom: -376px;
+}
+.Question{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    text-align: center;
+}
+.answer{
+    width: 100%;
+    max-height: 0;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+.answer.active{
+    max-height: fit-content;
+    visibility: visible;
+    opacity: 1;
+}
+.shadow{
+    position: relative;
+    width:750px;
+    height: 700px;
+    top: -100px;
+    left: -240px;
+}
+.FAQ{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: -100px;
+    bottom: -30px;
+    width: 450px;
+    height: 550px;
+}
+h1{
+    position: relative;
+    top: -200px;
+    right: -200px;
+    font-size: 50px;
+    z-index: 5;
+}
+.arrow{
+    width: 20px;
+    height: 15px;
+    position: relative;
+    bottom: -23px;
+    margin-right: 10px;
+    transition: transform 0.1s ease-out;
+}
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+.q{
+    font-size: large;
+    font-weight:300;
+}
+.q.bold{
+    font-weight: bolder;
+}
+p{
+    color: hsl(237, 12%, 33%);
+}
+@media(max-width:460px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -200px;
+        overflow: visible;
+        width: 55%;
+    }
+    #box{
+        visibility: hidden;
+    }
+    .shadow{
+        position: relative;
+        top: -900px;
+        visibility: hidden;
+    }
+    #woman{
+        position: relative;
+        top: -280px;
+        right: -150px;
+        width: 330px;
+        height: 330px;
+    }
+    h1{
+        position: relative;
+        left: -10px;
+        top: -10px;
+    }
+    .FAQ{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+    }
+    .Question{
+        position: relative;
+        font-size: 15px;
+        left: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 85%;
+    }
+    .answer{
+        width: 80%;
+        position: relative;
+        right: -43px;
+        font-size: 13px;
+    }
+}
