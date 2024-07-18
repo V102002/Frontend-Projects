@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+  <main>
+    <img class="image" src="./images/hero-desktop.jpg" alt="">
+    <header>
+      <img class="logo" src="./images/logo.svg" alt="">
+    </header>
+    <div class="title">
+      <h1><span style="font-weight: 300; color: hsl(0, 36%, 70%);">WE'RE</span> <span style="color: hsl(0, 6%, 24%); font-weight: 600;">COMING SOON</span></h1>
+    </div>
+  
+    <p class="para"> 
+      Hello fellow shoppers! We're currently building our new fashion store. 
+      Add your email below to stay up-to-date with announcements and our launch deals.
+    </p>
+    <form name="form" onsubmit="return myFun(event)">
+        <input id="text" placeholder="Email Address" name="email" type="text" value="">
+        <button type="submit" aria-label="Subscribe">
+          <img src="./images/icon-arrow.svg" alt="Arrow Icon">
+        </button>
+        <img id="wrong" src="./images/icon-error.svg" alt="">
+        <p id="error">Please type a valid email</p>
+    </form>
+    
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/V102002">Vinayak S Nair</a>.
+    </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
