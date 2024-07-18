@@ -24,7 +24,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Here]((https://www.frontendmentor.io/solutions/second-js-challenge--faq-accordian-card-ii-c-IAeHlXI1)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/second-js-challenge--faq-accordian-card-ii-c-IAeHlXI1)
 - Live Site URL: [Here](https://v102002.github.io/Frontend-Projects/FAQ-Accordion-Card/index.html)
 
 ## My process
