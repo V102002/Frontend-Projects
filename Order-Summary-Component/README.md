@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/order-summary-using-flexbox-and-progressive-enhancement-WhXASjhPll)
+- Live Site URL: [Here]([https://your-live-site-url.com](https://v102002.github.io/Frontend-Projects/Order-Summary-Component/index.html))
 
 ## My process
 
